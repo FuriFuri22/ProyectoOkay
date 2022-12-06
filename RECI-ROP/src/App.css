@@ -1,0 +1,38 @@
+
+.degradeLila {
+    background: rgb(196,160,83);
+background: radial-gradient(circle, rgba(196,160,83,1) 0%, rgba(238,149,46,0.7651435574229692) 0%, rgba(2,0,36,1) 0%, rgba(121,17,147,1) 97%);
+}
+
+.degradeVerde{
+    background: rgb(198,90,224);
+background: radial-gradient(circle, rgba(198,90,224,1) 0%, rgba(143,136,143,1) 30%, rgba(143,136,143,1) 74%, rgba(42,152,51,1) 100%);
+}
+.degradeMVerde {
+  background: rgb(231,152,117);
+background: radial-gradient(circle, rgba(231,152,117,1) 33%, rgba(97,215,67,1) 100%);
+}
+
+.blankito{
+  background-color: #cbebf1;
+}
+.degradeNaranja{
+  background: rgb(224,132,90);
+background: radial-gradient(circle, rgba(224,132,90,1) 0%, rgba(208,228,5,1) 53%);
+}
+
+.degradeMNaranja {
+  background: rgb(208,228,5);
+background: radial-gradient(circle, rgba(208,228,5,1) 18%, rgba(224,132,90,1) 57%, rgba(80,20,136,1) 97%);
+}
+.ocultar{
+  display: none;
+}
+.mostrar{
+  display: block;
+}
+textarea {
+  height: 30px;
+  width: 100%;
+  resize: none;
+}
