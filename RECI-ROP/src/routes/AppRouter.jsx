@@ -6,6 +6,7 @@ import { PublicRoutes } from "./PublicRoutes";
 import {Iniciosesion, Registro,Inicio} from '../pages/';
 import { Donar } from "../pages/Donar"
 import { PrivateRoutes } from "./PrivateRoues"
+import Chat from "../pages/Chat";
 
 
 
@@ -21,6 +22,13 @@ export const AppRouter = () => {
             </PublicRoutes>
         } />
 
+        <Route path='/Chat' element={
+
+        <PublicRoutes>           
+            <Chat/>   
+          </PublicRoutes>
+        } />
+
         <Route path="/Donar" element={
           <Donar />
         }/>
@@ -29,7 +37,7 @@ export const AppRouter = () => {
             <Inicio/>
           // Proteger las rutas privadas
         } />
-
+        
         <Route path='/*' element={
           <PrivateRoutes>
             {/*<Donar/>*/}

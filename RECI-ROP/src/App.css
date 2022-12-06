@@ -36,3 +36,32 @@ textarea {
   width: 100%;
   resize: none;
 }
+
+#centrar{
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  left: calc(50% - 250px);
+}
+
+#yo{
+  width: 300px;
+  border-radius: 15pt;
+}
+
+#otro{
+  width: 300px;
+  position:sticky ;
+  left: 100%;
+  border-radius: 15pt;
+}
+
+#text {
+  text-align: center;
+  text-decoration: solid;
+  font: bold
+}
+
+#cuadro{
+  border-radius: 15pt;
+}
